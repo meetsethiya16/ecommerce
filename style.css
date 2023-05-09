@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #161616;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+}
+
+.logo h4 {
+  margin: 10px 20px;
+  font-size: 34px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-items {
+  padding: 20px;
+}
