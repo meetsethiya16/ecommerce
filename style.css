@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #161616;
+  border-bottom: 1px solid black;
+}
+
+.line {
+  height: 2px;
+  background-color: #ccc;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+}
+
+.logo h4 {
+  margin: 10px 20px;
+  font-size: 34px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-items {
+  padding: 20px;
+}
+
+.a a {
+  text-decoration: none;
+  color: white;
+}
+
+.a a:hover {
+  color: #454fe1;
+  transition: ease-in-out 0.3s;
+}
+
+#logo:hover {
+  color: #454fe1;
+  transition: ease-in-out 0.3s;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  height: 90vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.bg-image {
+  object-fit: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+#hero-font {
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+
+.marquee {
+  background-color: #c84b31;
+  align-content: center;
+}
+
+.marquee p {
+  font-size: 50px;
+  background-color: #c84b31;
+  width: 80%;
+  color: white;
+  margin-top: 8px;
+}
+
+.section-title {
+  margin-top: 10px;
+  padding: 0px;
+  text-align: center;
+}
+
+.h2.section-title {
+  font-size: 60px;
+  margin: 24px auto;
+}
+
+li {
+  list-style: none;
+}
+
+.product-list {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.product-item {
+  height: 100px;
+  width: 70px;
+}
+
+.cardimg {
+  object-fit: cover;
+}
