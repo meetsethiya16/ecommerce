@@ -4,7 +4,61 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #161616;
+  border-bottom: 1px solid black;
+}
 
+.line {
+  height: 2px;
+  background-color: #ccc;
+}
+
+.logo-main {
+  text-decoration: none;
+  color: white;
+}
+
+.logo h4 {
+  margin: 10px 20px;
+  font-size: 34px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+  margin-top: 18px;
+}
+
+.nav-items {
+  padding: 20px;
+}
+
+.a a {
+  text-decoration: none;
+  color: white;
+}
+
+.a a:hover {
+  color: #454fe1;
+  transition: ease-in-out 0.3s;
+}
+
+.logo-main:hover {
+  color: #454fe1;
+  transition: ease-in-out 0.3s;
+}
 
 .hero {
   position: relative;
@@ -62,10 +116,9 @@ li {
 }
 
 .product-list {
-  display: grid;
-  gap: 50px;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .card-content {
