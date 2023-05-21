@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: #161616;
+    border-bottom: 1px solid black;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  #logo {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo h4 {
+    margin: 10px 20px;
+    font-size: 34px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+  }
+  
+  .items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .nav-items {
+    padding: 20px;
+  }
+  
+  .a a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .a a:hover {
+    color: #454fe1;
+    transition: ease-in-out 0.3s;
+  }
+  
+  #logo:hover {
+    color: #454fe1;
+    transition: ease-in-out 0.3s;
+  }
