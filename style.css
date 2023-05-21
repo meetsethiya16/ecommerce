@@ -111,22 +111,24 @@ header {
   margin: 24px auto;
 }
 
-li {
-  list-style: none;
-}
-
-.product-list {
+.cards {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.card-content {
+.card-body {
+  height: 300px;
+  width: 250px;
+}
+
+.card-body img {
+  margin-left: 50px;
+}
+
+.card-content h4 {
   text-align: center;
 }
 
-.product-item {
-  height: 100px;
-  width: 70px;
-  object-fit: cover;
+.product-img {
+  height: 300px;
 }
