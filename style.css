@@ -119,6 +119,7 @@ header {
 .card-body {
   height: 300px;
   width: 250px;
+  margin-bottom: 33px;
 }
 
 .card-body img {
@@ -127,6 +128,17 @@ header {
 
 .card-content h4 {
   text-align: center;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.card-content a:hover {
+  color: #454fe1;
+  transition: ease-in-out 0.3s;
 }
 
 .product-img {
