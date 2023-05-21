@@ -75,8 +75,5 @@ li {
 .product-item {
   height: 100px;
   width: 70px;
-}
-
-.cardimg {
   object-fit: cover;
 }
