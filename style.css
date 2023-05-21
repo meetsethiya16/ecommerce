@@ -144,3 +144,18 @@ header {
 .product-img {
   height: 300px;
 }
+
+li {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-logo img {
+  height: 100px;
+}
